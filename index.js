@@ -130,8 +130,6 @@
 
 //   console.log(`[CacheWarmer] Finished at ${new Date().toISOString()}`);
 // })();
-
-
 import axios from "axios";
 import { HttpsProxyAgent } from "https-proxy-agent";
 import { parseStringPromise } from "xml2js";
@@ -144,7 +142,7 @@ const DOMAINS_MAP = {
 };
 
 const PROXIES = {
-  es: process.env.BRD_PROXY_SE,
+  es: process.env.BRD_PROXY_ES,
 };
 
 const USER_AGENTS = {
